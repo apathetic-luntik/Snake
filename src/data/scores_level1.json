@@ -1,0 +1,37 @@
+{
+    "players": [
+        {
+            "name": "test2",
+            "score": 61
+        },
+        {
+            "name": "test",
+            "score": 43
+        },
+        {
+            "name": "Чарли",
+            "score": 15
+        },
+        {
+            "name": "Галя",
+            "score": 12
+        },
+        {
+            "name": "test1",
+            "score": 7
+        },
+        {
+            "name": "Арс",
+            "score": 6
+        },
+        {
+            "name": "test",
+            "score": 3
+        },
+        {
+            "name": "test3",
+            "score": 2
+        }
+
+    ]
+}

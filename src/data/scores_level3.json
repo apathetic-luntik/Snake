@@ -1,0 +1,39 @@
+{
+    "players":[
+    {
+    "name":"Анна",
+    "score":9
+ 
+    },
+    {
+     "name":"ВадиYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYк",
+    "score":7
+      
+    }, 
+    {
+    "name":"Том",
+    "score":5
+      
+    }, 
+    {
+    "name":"Люся",
+    "score":5
+      
+    }, 
+    {
+    "name":"Женя",
+    "score":4
+      
+    }, 
+    {
+    "name":"Юра",
+    "score":3
+      
+    }, 
+    {
+    "name":"Боб",
+    "score":1
+    }
+    
+    ]
+}
