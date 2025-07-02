@@ -1,0 +1,23 @@
+# Игнорировать папку сборки
+/build/
+
+# Игнорировать временные файлы Qt Creator
+*.pro.user
+*.qrc.user
+*.autosave
+
+# Игнорировать файлы сборки CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Игнорировать исполняемые файлы
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Игнорировать логи и временные файлы
+*.log
+*.tmp
