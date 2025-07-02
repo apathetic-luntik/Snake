@@ -1,19 +1,19 @@
 @echo off
-REM Скрипт для сборки проекта Snake с использованием CMake на Windows
+REM 
 
-REM Создаем папку build, если ее нет
+REM 
 if not exist build (
     mkdir build
 )
 
-REM Переходим в папку build
+REM 
 cd build
 
-REM Генерируем файлы сборки
+REM 
 cmake ..
 
-REM Собираем проект
+REM 
 cmake --build .
 
-REM Возвращаемся в корень проекта
+REM
 cd ..
