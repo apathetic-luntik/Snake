@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
-find_package(Qt6 COMPONENTS Core Gui Widgets REQUIRED)
+find_package(Qt6 COMPONENTS Core Gui Widgets Test REQUIRED)
 
 file(GLOB SOURCES "src/*.cpp")
 
@@ -28,3 +28,11 @@ target_include_directories(${PROJECT_NAME} PRIVATE src)
 target_compile_definitions(${PROJECT_NAME} PRIVATE QT_DEPRECATED_WARNINGS)
 
 target_link_libraries(${PROJECT_NAME} PRIVATE Qt6::Core Qt6::Gui Qt6::Widgets)
+
+file(GLOB TEST_SOURCES "src/tests/*.cpp")
+
+add_executable(SnakeTests ${TEST_SOURCES})
+
+target_include_directories(SnakeTests PRIVATE src)
+
+target_link_libraries(SnakeTests PRIVATE Qt6::Core Qt6::Gui Qt6::Widgets Qt6::Test)
